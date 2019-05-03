@@ -13,6 +13,6 @@ int main()
            
            sum += number; 
         }
-        cout << "The summation from "<<1<<" to "<<y<<" is " << sum << endl; 
+        cout << "The summation from "<<"1"<<" to "<<y<<" is " << sum << endl; 
         return 0;
     }

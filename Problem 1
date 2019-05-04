@@ -2,33 +2,35 @@
 #include<conio.h>
 #include<string>
 #include<iostream>
+#include<cmath>
 
 using namespace std;
 
 int main()
 {
 	float Hour, BillA, BillB;
-	int a;
+	string x, a, b, c;
 	
 	cout << "Please indicate which package you are using" << endl;
-	cout << "1 for A, 2 for B, 3 for C" << endl;
-	cin >> a;
+	cout << "A, B, or C" << endl;
+	cin>> x;
 	cout << "Indicate your usage in hours" << endl;
 	cin >> Hour;
 		
 	BillA = ( Hour * 20 ) + 995; 
 	BillB = ( Hour * 10) + 1495;
+				
 	{
-	if (a==1)
+	if (x==a)
 	
 	
 	cout << BillA<<"/"<<"month" << endl;
 	
-	else if (a==2)
+	else if (x==b)
 	
 	cout << BillB<<"/"<<"month" << endl;
 	
-	else if (a==3)
+	else if (x==c)
 	
 	cout << "1995/month, no additional fees for extra hours" << endl;
 	
